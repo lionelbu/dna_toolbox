@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolBoxCOM", "ToolBoxCOM\ToolBoxCOM.csproj", "{A855CE2C-B36E-45D8-8E6D-09F53B8127A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{EE328A02-2AA1-4FCE-8BB2-9A9BAA110A6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A855CE2C-B36E-45D8-8E6D-09F53B8127A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A855CE2C-B36E-45D8-8E6D-09F53B8127A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A855CE2C-B36E-45D8-8E6D-09F53B8127A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A855CE2C-B36E-45D8-8E6D-09F53B8127A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE328A02-2AA1-4FCE-8BB2-9A9BAA110A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE328A02-2AA1-4FCE-8BB2-9A9BAA110A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE328A02-2AA1-4FCE-8BB2-9A9BAA110A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE328A02-2AA1-4FCE-8BB2-9A9BAA110A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE07B562-8BB6-4695-9C95-470AF369627B}
+	EndGlobalSection
+EndGlobal

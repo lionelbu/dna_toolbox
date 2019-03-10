@@ -1,0 +1,10 @@
+C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\bin\Debug\ToolBoxCOM.dll
+C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\bin\Debug\ToolBoxCOM.pdb
+C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\obj\Debug\ToolBoxCOM.csprojAssemblyReference.cache
+C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\obj\Debug\ToolBoxCOM.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\obj\Debug\ToolBoxCOM.dll
+C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\obj\Debug\ToolBoxCOM.pdb
+C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\obj\Debug\ToolBoxCOM.csproj.CopyComplete

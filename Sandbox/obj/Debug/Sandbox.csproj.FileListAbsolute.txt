@@ -1,0 +1,12 @@
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\obj\Debug\Sandbox.csprojAssemblyReference.cache
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\obj\Debug\Sandbox.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\bin\Debug\Sandbox.exe
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\bin\Debug\Sandbox.pdb
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\bin\Debug\ToolBoxCOM.dll
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\bin\Debug\ToolBoxCOM.pdb
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\obj\Debug\Sandbox.csproj.CopyComplete
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\obj\Debug\Sandbox.exe
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\obj\Debug\Sandbox.pdb
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\bin\Debug\ICSharpCode.SharpZipLib.xml
