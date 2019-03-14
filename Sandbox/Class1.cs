@@ -13,7 +13,9 @@ namespace Sandbox
         {
             // Open a compressed file on disk.
             // ... Then decompress it with the method below.
-           // Zip.ExtractTGZ(@"C:\Users\HP\Documents\Git\n.tar.gz", @"C:\Users\HP\Documents\Git\");
+            Zip t = new Zip();
+          //  t.ExtractZip(@"C:\Users\HP\Documents\Git\n.zip", @"C:\Users\HP\Documents\Git\");
+            t.createZip(@"C:\Users\HP\Documents\Git\test", @"C:\Users\HP\Documents\Git\test\toto.zip");
         }
     }
 }

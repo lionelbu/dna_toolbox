@@ -9,3 +9,13 @@ C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\obj\Release\ToolBoxCOM.csproj.Co
 C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\obj\Release\ToolBoxCOM.dll
 C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\obj\Release\ToolBoxCOM.pdb
 C:\Users\HP\Documents\Git\ToolBoxCOM\ToolBoxCOM\obj\Release\ToolBoxCOM.csprojAssemblyReference.cache
+C:\Users\HP\Documents\Git\dna_toolbox\ToolBoxCOM\bin\Release\ToolBoxCOM-AddIn.dna
+C:\Users\HP\Documents\Git\dna_toolbox\ToolBoxCOM\bin\Release\ToolBoxCOM.dll
+C:\Users\HP\Documents\Git\dna_toolbox\ToolBoxCOM\bin\Release\ToolBoxCOM.pdb
+C:\Users\HP\Documents\Git\dna_toolbox\ToolBoxCOM\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\HP\Documents\Git\dna_toolbox\ToolBoxCOM\bin\Release\ICSharpCode.SharpZipLib.pdb
+C:\Users\HP\Documents\Git\dna_toolbox\ToolBoxCOM\bin\Release\ICSharpCode.SharpZipLib.xml
+C:\Users\HP\Documents\Git\dna_toolbox\ToolBoxCOM\obj\Release\ToolBoxCOM.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Git\dna_toolbox\ToolBoxCOM\obj\Release\ToolBoxCOM.csproj.CopyComplete
+C:\Users\HP\Documents\Git\dna_toolbox\ToolBoxCOM\obj\Release\ToolBoxCOM.dll
+C:\Users\HP\Documents\Git\dna_toolbox\ToolBoxCOM\obj\Release\ToolBoxCOM.pdb

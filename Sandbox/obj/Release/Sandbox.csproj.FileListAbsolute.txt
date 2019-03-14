@@ -11,3 +11,16 @@ C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\obj\Release\Sandbox.csproj.CopyComp
 C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\obj\Release\Sandbox.exe
 C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\obj\Release\Sandbox.pdb
 C:\Users\HP\Documents\Git\ToolBoxCOM\Sandbox\bin\Release\ToolBoxCOM-AddIn.dna
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\bin\Release\ToolBoxCOM-AddIn.dna
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\bin\Release\Sandbox.exe
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\bin\Release\Sandbox.pdb
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\bin\Release\ToolBoxCOM.dll
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\bin\Release\ToolBoxCOM.pdb
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\bin\Release\ICSharpCode.SharpZipLib.pdb
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\bin\Release\ICSharpCode.SharpZipLib.xml
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\obj\Release\Sandbox.csprojAssemblyReference.cache
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\obj\Release\Sandbox.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\obj\Release\Sandbox.csproj.CopyComplete
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\obj\Release\Sandbox.exe
+C:\Users\HP\Documents\Git\dna_toolbox\Sandbox\obj\Release\Sandbox.pdb

@@ -1,5 +1,5 @@
 <DnaLibrary Name="ToolBoxCOM Add-In" RuntimeVersion="v4.0">
-  <ExternalLibrary Path="ToolBoxCOM.dll" ExplicitExports="false" LoadFromBytes="true" Pack="true" />
+  <ExternalLibrary Path="ToolBoxCOM.dll" ComServer="true"  ExplicitExports="false" LoadFromBytes="true" Pack="true" />
   
   <!-- 
        The RuntimeVersion attribute above allows two settings:
