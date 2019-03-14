@@ -62,76 +62,43 @@ namespace ToolBoxCOM
         }
 
         [ExcelFunction(Description = "Create zip")]
-        /// <summary>
-        /// Method that compress all the files inside a folder (non-recursive) into a zip file.
-        /// </summary>
-        /// <param name="DirectoryPath"></param>
-        /// <param name="OutputFilePath"></param>
-        /// <param name="CompressionLevel"></param>
-        public void createZip(string DirectoryPath, string OutputFilePath, int CompressionLevel = 9)
+        
+        public void CreateZip(string directory, string outputFile, string password ="")
         {
-            try
-            {
-                // Depending on the directory this could be very large and would require more attention
-                // in a commercial package.
-                string[] filenames = Directory.GetFiles(DirectoryPath);
-
-                // 'using' statements guarantee the stream is closed properly which is a big source
-                // of problems otherwise.  Its exception safe as well which is great.
-                using (ZipOutputStream OutputStream = new ZipOutputStream(File.Create(OutputFilePath)))
-                {
-
-                    // Define the compression level
-                    // 0 - store only to 9 - means best compression
-                    OutputStream.SetLevel(CompressionLevel);
-
-                    byte[] buffer = new byte[4096];
-
-                    foreach (string file in filenames)
-                    {
-
-                        // Using GetFileName makes the result compatible with XP
-                        // as the resulting path is not absolute.
-                        ZipEntry entry = new ZipEntry(Path.GetFileName(file));
-
-                        // Setup the entry data as required.
-
-                        // Crc and size are handled by the library for seakable streams
-                        // so no need to do them here.
-
-                        // Could also use the last write time or similar for the file.
-                        entry.DateTime = DateTime.Now;
-                        OutputStream.PutNextEntry(entry);
-
-                        using (FileStream fs = File.OpenRead(file))
-                        {
-
-                            // Using a fixed size buffer here makes no noticeable difference for output
-                            // but keeps a lid on memory usage.
-                            int sourceBytes;
-
-                            do
-                            {
-                                sourceBytes = fs.Read(buffer, 0, buffer.Length);
-                                OutputStream.Write(buffer, 0, sourceBytes);
-                            } while (sourceBytes > 0);
-                        }
-                    }
-
-                    // Finish/Close arent needed strictly as the using statement does this automatically
-
-                    // Finish is important to ensure trailing information for a Zip file is appended.  Without this
-                    // the created file would be invalid.
+            ZipOutputStream OutputStream = new ZipOutputStream(File.Create(outputFile));
                     OutputStream.Finish();
 
-                    // Close is important to wrap things up and unlock the file.
-                    OutputStream.Close();
-                }
-            }
-            catch (Exception ex)
+            OutputStream.Close();
+            var fullFileListing = Directory.EnumerateFiles(directory, "*.*", SearchOption.AllDirectories);
+            var directories = Directory.EnumerateDirectories(directory, "*", SearchOption.AllDirectories);
+
+            using (var zip = new ZipFile(outputFile))
             {
-                // No need to rethrow the exception as for our purposes its handled.
-                Console.WriteLine("Exception during processing {0}", ex);
+                zip.UseZip64 = UseZip64.On;
+
+                foreach (var childDirectory in directories)
+                {
+                    zip.BeginUpdate();
+                    zip.AddDirectory(childDirectory.Replace(directory, string.Empty));
+                    zip.CommitUpdate();
+                }
+
+                foreach (var file in fullFileListing)
+                {
+                    if (!(file == outputFile))
+                    {
+                        zip.BeginUpdate();
+                        zip.Add(file, file.Replace(directory, string.Empty));
+                        zip.CommitUpdate();
+                    }
+                }
+
+                if (password != "")
+                {
+                    zip.BeginUpdate();
+                    zip.Password = password;
+                    zip.CommitUpdate();
+                }
             }
         }
     }

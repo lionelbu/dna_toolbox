@@ -15,7 +15,8 @@ namespace Sandbox
             // ... Then decompress it with the method below.
             Zip t = new Zip();
           //  t.ExtractZip(@"C:\Users\HP\Documents\Git\n.zip", @"C:\Users\HP\Documents\Git\");
-            t.createZip(@"C:\Users\HP\Documents\Git\test", @"C:\Users\HP\Documents\Git\test\toto.zip");
+            //t.createZip(@"C:\Users\HP\Documents\Git\test", @"C:\Users\HP\Documents\Git\test\toto.zip");
+            t.CreateZip(@"C:\Users\HP\Documents\Git\test", @"C:\Users\HP\Documents\Git\test\toto.zip");
         }
     }
 }
